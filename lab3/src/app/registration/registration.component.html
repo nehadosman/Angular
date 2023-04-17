@@ -1,0 +1,10 @@
+<p>Registration</p>
+
+<div class="container">
+  <form>
+    <input type="text" placeholder="Name" name="stdName" [(ngModel)]="stdName" required/>
+    <input type="text" placeholder="Age" name="stdAge" [(ngModel)]="stdAge" required/>
+    <p class="error-msg" *ngIf="stdAge && (+stdAge < 20 || +stdAge > 40)">Not valid age</p>
+    <input type="button" value="ADD" (click)="add()"/>
+  </form>
+</div>
