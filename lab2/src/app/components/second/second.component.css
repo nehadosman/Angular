@@ -1,0 +1,10 @@
+#slideShow{
+    max-width: 300px;
+    background-color: black;
+}
+
+.btn{
+    display: inline;
+    align-items: center;
+    margin: 20px;
+}
