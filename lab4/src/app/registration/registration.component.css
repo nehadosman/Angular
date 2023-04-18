@@ -1,0 +1,9 @@
+div{
+    max-width: 50%;
+}
+form{
+    text-align: -webkit-center;
+}
+label{
+    float: left;
+}

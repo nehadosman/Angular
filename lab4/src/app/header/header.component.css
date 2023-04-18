@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: rgb(28, 25, 114);
+    margin-right: 100px;
+    font-size: large;
+    
+}
+.active{
+    color:rgb(225, 16, 100)
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
